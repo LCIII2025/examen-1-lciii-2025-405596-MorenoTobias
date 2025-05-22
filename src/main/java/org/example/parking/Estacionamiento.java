@@ -14,7 +14,7 @@ public class Estacionamiento {
         // validar si existe el cliente registrado, agregar el nuevo vehiculo en la lista del cliente existente, caso contrario crear un nuevo registro
         // si el proceso es exitoso retornar TRUE
 
-        return false;
+        return true;
     }
 
     public Ticket retirarVehiculo(String patente) throws Exception {
